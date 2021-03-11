@@ -1,0 +1,45 @@
+.container  {
+    width: 100%;
+}
+
+.container-2 {
+    
+    margin: 30px;
+    border: 3px solid black;
+    background: rgb(170, 162, 162);
+    
+}
+.container-2 div {
+    border: 2px solid black;
+    float: left;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 5px;
+    text-align: center;
+    padding:  5px;
+}
+.clearFix {
+    clear: both;
+    width: 0;
+    height: 0;
+    
+}
+.enter {
+   width: 90px;
+}
+
+.space {
+    width: 250px;
+}
+
+div [data-key] {
+   
+    box-shadow: 2px 2px rgb(80, 105, 93);
+    color: black;
+}
+
+.bg-red {
+
+    background: red;
+    color: white;
+}
